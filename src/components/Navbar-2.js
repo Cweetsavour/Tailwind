@@ -34,7 +34,12 @@ const Navbar2 = () => {
       </div>
 
       <div>
-        <button className="text-sky-900 text-sm font-bold py-1.5 px-5 mr-20 cursor-pointer border-2 rounded-4xl hover:bg-indigo-900 hover:text-white/90 transition-all">
+        <button
+          onClick={() =>
+            window.open("https://themewagon.com/themes/elixir/", "_blank")
+          }
+          className="text-sky-900 text-sm font-bold py-1.5 px-5 mr-20 cursor-pointer border-2 rounded-4xl hover:bg-indigo-900 hover:text-white/90 transition-all"
+        >
           Purchase
         </button>
       </div>
