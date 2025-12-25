@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 
@@ -35,9 +36,7 @@ const Navbar2 = () => {
 
       <div>
         <button
-          onClick={() =>
-            window.open("https://themewagon.com/themes/elixir/", "_blank")
-          }
+          onClick={() => window.open("https://example.com", "_blank")}
           className="text-sky-900 text-sm font-bold py-1.5 px-5 mr-20 cursor-pointer border-2 rounded-4xl hover:bg-indigo-900 hover:text-white/90 transition-all"
         >
           Purchase
