@@ -5,7 +5,7 @@ import Link from "next/link";
 const Navbar2 = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="sticky flex justify-start items-center gap-80 shadow-sm pl-20 top-0 left-0 w-full z-10 bg-white/80 text-sky-900 px-4 py-3">
+    <nav className="sticky flex justify-start items-center gap-80 shadow-sm pl-20 top-0 left-0 w-full z-1000 bg-white/80 text-sky-900 px-4 py-3">
       <div className="flex gap-10">
         <img
           className="cursor-pointer"
