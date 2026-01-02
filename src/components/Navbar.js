@@ -17,7 +17,11 @@ const Navbar = () => {
         </div>
         <div className="flex gap-2">
           <FaPhoneAlt className="text-yellow-400" />
-          <p className="text-xs font-bold cursor-pointer hover:underline transition-all">
+          <p
+            className="text-xs font-bold cursor-pointer border-b-2 border-transparent
+  hover:border-white
+  transition-colors duration-300"
+          >
             234 706 391 2132
           </p>
         </div>
