@@ -4,22 +4,24 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareTwitter } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaSquareGooglePlus } from "react-icons/fa6";
+import { MdOutlineDoubleArrow } from "react-icons/md";
 import Link from "next/link";
 import React from "react";
 
 const contact = () => {
-  
   return (
     <div className="min-h-screen bg-gray-100 pb-15">
       <Navbar />
       <Navbar2 />
       <div className="relative text-white z-50 px-20 py-30">
         <h1 className="relative text-7xl font-bold">Contact</h1>
-        <div className="flex gap-3 mt-3 ml-1 text-xl">
+        <div className="flex gap-3 mt-3 ml-1 text-xl items-center">
           <Link href="/">
-            <p className="font-semibold cursor-pointer hover:underline">Home</p>
+            <p className="border-transparent border-b-2 duration-300 font-semibold cursor-pointer hover:border-white transition-colors">
+              Home
+            </p>
           </Link>
-          <p> {">>"} </p>
+          <MdOutlineDoubleArrow className="mt-1" />
           <p>Contact</p>
         </div>
       </div>
@@ -81,13 +83,13 @@ const contact = () => {
             className="border border-gray-300 rounded-sm h-50 text-sm p-3 focus:ring-2 focus:ring-gray-300 focus:ring-offset-white outline-none transition-all resize-none"
           ></textarea>
           <button
-          type="submit"
-          className="bg-gray-800 text-sm font-bold text-white py-3 px-10 rounded cursor-pointer hover:bg-gray-900 transition mt-3 max-w-38"
-        >
-          Send Now
-        </button>
+            type="submit"
+            className="bg-gray-800 text-sm font-bold text-white py-3 px-10 rounded cursor-pointer hover:bg-gray-900 transition mt-3 max-w-38"
+          >
+            Send Now
+          </button>
         </form>
-        
+
         <div></div>
       </div>
     </div>
