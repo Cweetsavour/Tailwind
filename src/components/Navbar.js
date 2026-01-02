@@ -15,7 +15,7 @@ const Navbar = () => {
             126 Rumuagholu SARS Link Road, PH NG.
           </p>
         </div>
-        <div className="flex gap-1">
+        <div className="flex gap-2">
           <FaPhoneAlt className="text-yellow-400" />
           <p
             className="text-xs font-bold cursor-pointer border-b-2 border-transparent
