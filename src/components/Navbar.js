@@ -22,7 +22,7 @@ const Navbar = () => {
   hover:border-white
   transition-colors duration-300"
           >
-            234 706 391 2132
+            234-706-391-2132
           </p>
         </div>
       </div>
