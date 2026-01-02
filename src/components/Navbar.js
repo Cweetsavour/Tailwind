@@ -5,9 +5,9 @@ import { MdAccessTimeFilled } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <nav className="flex relative gap-110 items-center top-0 left-0 w-full z-50 bg-sky-950 pt-5 pl-20 pb-5 pr-5 text-white">
-      <div className="flex gap-10">
-        <div className="flex gap-2">
+    <nav className="flex relative gap-50 items-center top-0 left-0 w-full z-50 bg-sky-950 pt-5 pl-20 pb-5 pr-20 text-white h-14 justify-between px-4">
+      <div className="flex gap-10 items-center">
+        <div className="flex gap-2 w-full whitespace-nowrap">
           <p>
             <FaLocationDot className="text-yellow-400" />
           </p>
@@ -15,18 +15,18 @@ const Navbar = () => {
             126 Rumuagholu SARS Link Road, PH NG.
           </p>
         </div>
-        <div className="flex gap-3">
+        <div className="flex gap-2 w-full whitespace-nowrap">
           <FaPhoneAlt className="text-yellow-400" />
           <p
             className="text-xs font-bold cursor-pointer border-b-2 border-transparent
   hover:border-white
   transition-colors duration-300"
           >
-            2347063912132
+            234 706 391 2132
           </p>
         </div>
       </div>
-      <div className="flex gap-2">
+      <div className="flex gap-2 whitespace-nowrap">
         <MdAccessTimeFilled className="text-yellow-400" />
         <p className="text-xs font-bold">Mon-Sat, 8:00-18:00. Sunday CLOSED</p>
       </div>
